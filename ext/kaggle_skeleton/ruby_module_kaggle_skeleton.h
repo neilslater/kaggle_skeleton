@@ -12,6 +12,8 @@
 #include "narray.h"
 #include "core_narray.h"
 #include "shared_vars.h"
+#include "shared_helpers.h"
+#include "mt.h"
 
 void init_module_kaggle_skeleton();
 

@@ -23,7 +23,7 @@ task :import_csv do
   if KaggleSkeleton.ready_to_run?
     puts "CSV data already imported."
   elsif KaggleSkeleton.ready_to_import?
-    KaggleSkeleton.import_toys_from_csv
+    KaggleSkeleton.import_from_csv
   else
     puts ''
     puts '**********************************************************'
